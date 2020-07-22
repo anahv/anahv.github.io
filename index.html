@@ -4,19 +4,275 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana H de la Vega | Product Manager</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Ana H de la Vega</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Fancy JS -->
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/97e4a8f9c9.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Lora&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body>
-    <h1>Ana H de la Vega</h1>
-    <h2>Product manager</h2>
-    <p>Rest of the website coming soon</p>
+
+    <!-- Black border -->
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">ana de la vega</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead text-center">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-align">
+                    <h1 class="herohead">Ana H de la Vega</h1>
+                    <p class="subhead">product manager<span class="bullets">&#8226;</span>designer<span class="bullets">&#8226;</span>developer</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-intro">I'm a product manager and cartoonist based in London.</h2>
+                    <p class="section-description" style="margin-bottom: 40px;">Some of my work is below. They're both from <a href="https://www.linkedin.com/in/ana-de-la-vega/" target="new" id="myJob">my job</a> and my personal projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What I do</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="margin-bottom: 2rem;">
+                <div class="col-lg-3 col-md-6 text-center" style="margin-bottom: 0px;">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-4x fa-star-o text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Product management</h3>
+                        <p class="text-muted mb-0">I create visual identities for new products, including logos, colours and brand guidelines.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-4x fa-pencil text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Brand, UI and Graphic Design</h3>
+                        <p class="text-muted mb-0">I use an iPad to draw personalised cartoons and illustrations. The trickiest part is coming up with the joke!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-4x fa-smile-o text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Cartoons and Illustrations</h3>
+                        <p class="text-muted mb-0">From wedding invitations, to children's books or random cartoons.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-4x fa-code text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Software development</h3>
+                        <p class="text-muted mb-0">I'm learning web and iOS development to build my own apps and become a more valuable product manager.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="p-0 bg-dark text-white" id="portfolio">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="margin-top: 4rem; margin-bottom: 1rem;">my portfolio</h2>
+                <hr class="my-4">
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row no-gutters popup-gallery">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    LEVEL
+                  </div>
+                  <div class="project-name">
+                    LEVEL is a new low-cost long-haul airline. I was product owner and lead designer of their new website, flylevel.com. 
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    Zenda
+                  </div>
+                  <div class="project-name">
+                                        Zenda is an e-commerce start-up within my company. I created the name, logo and visual identity for the business, and remain Zenda's creative lead. You can check it out in zendaglobal.com.
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">   
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    playerbakes
+                  </div>
+                  <div class="project-name">
+                    One of my favourite side projects - I created the brand identity for a sourdough microbakery. This included creating the logo, colours and brand guidelines. Have a look at playerbakes.com. 
+                  </div>
+                </div>
+              </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    Personalised Cartoons
+                  </div>
+                  <div class="project-name">
+                    The word spread that I could draw fun cartoons - so I drew some for CEOs and leaders around my company. <!--This one was for the British Airways CEO, proudly displayed in his office.-->
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    Tooth Scary
+                  </div>
+                  <div class="project-name">
+                      Tooth Scary was my first delve into children's book illustration. I loved coming up with the characters' design and reinforcing a great story visually.  
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category">
+                    Breeze
+                  </div>
+                  <div class="project-name">
+                Breeze is an exploration of what airlines' websites and apps could look like. I'm lucky to be able to explore UI design as part of my role in a Digital Transformation team.
+                  </div>
+                </div>
+              </div>
+            </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-0 bg-dark">
+                <div class="row">
+                    <div class="col-lg-12 text-center">.</div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Say hi!</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 ml-auto text-center">
+                    <a href="https://www.linkedin.com/in/ana-de-la-vega/" target="new">
+                    <i class="fa fa-linkedin fa-3x sr-contact mb-3"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 ml-auto text-center">
+                    <a href="https://www.instagram.com/anahdelavega/" target="new">
+                    <i class="fa fa-instagram fa-3x sr-contact mb-3"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 ml-auto text-center">
+                    <a href="https://github.com/anahv" target="new">
+                    <i class="fa fa-github fa-3x sr-contact mb-3"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mr-auto text-center">
+                    <a href="mailto:anahidalgodelavega@gmail.com">
+                    <i class="fa fa-envelope-o fa-3x sr-contact mb-3"></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Designed and coded with <i class="fa fa-heart"></i> by Ana H de la Vega</small>
+        </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
 
     <script src="main.js"></script>
 </body>
