@@ -10868,6 +10868,12 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    section {
+        padding: 6rem 0;
+    }
+}
+
 ::-moz-selection {
     background: #FFE0F7;
     text-shadow: none;
@@ -11383,6 +11389,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .sr-contact:hover {
     color: #FE91CA !important;
+}
+
+.sr-contact {
+    margin-bottom: 20px;
 }
 
 .footer {
