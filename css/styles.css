@@ -190,7 +190,7 @@ a {
 }
 
 a:hover {
-    color: #e6b301;
+    color: #FE91CA;
     text-decoration: underline;
 }
 
@@ -6946,11 +6946,15 @@ button.bg-danger:focus {
 }
 
 .bg-light-pink {
-    background-color: #FFE0F7
+    background-color: #FFE0F7;
+}
+
+.bg-pink {
+    background-color: #FE91CA;
 }
 
 .bg-light-blue {
-    background-color: #D3DBFF
+    background-color: #D3DBFF;
 }
 
 
@@ -10865,12 +10869,12 @@ p {
 }
 
 ::-moz-selection {
-    background: #FE91CA;
+    background: #FFE0F7;
     text-shadow: none;
 }
 
 ::selection {
-    background: #FE91CA;
+    background: #FFE0F7;
     text-shadow: none;
 }
 
@@ -11377,6 +11381,10 @@ section#contact form#contactForm :-ms-input-placeholder {
     color: #ced4da;
 }
 
+.sr-contact:hover {
+    color: #FE91CA !important;
+}
+
 .footer {
     text-align: center;
     font-size: 0.9rem;
@@ -11440,10 +11448,6 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
 #myJob a {
     color: #fff
-}
-
-#first {
-    background-color: #FFE0F7;
 }
 
 #bullets {
