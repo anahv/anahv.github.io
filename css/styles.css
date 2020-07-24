@@ -2648,6 +2648,12 @@ button.bg-primary:focus {
     background-color: #FFC7EB;
 }
 
+.bg-light-pink-gradient {
+    background-color: #ffc7eb;
+    background-image: linear-gradient(45deg, #ffc7eb 18%, #ffe1f4 100%);
+
+}
+
 .bg-lavender {
     background-color: #ffe8fe;
     background-image: linear-gradient(225deg, #ffe8fe 18%, #dad6ff 100%);
