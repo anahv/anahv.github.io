@@ -17,6 +17,16 @@
         distance: '0px'
     }, 300);
 
+
+    $("#portfolio .portfolio-item").hover(
+        function () {
+            $(this).addClass("box-shadow-hover");
+        },
+        function () {
+            $(this).removeClass("box-shadow-hover");
+        }
+    );
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
