@@ -1,2 +1,3 @@
 # anahv.github.io
-My personal website - build in progress
+
+My personal website, where I talk about my skills, some of my projects and a personal timeline.  
