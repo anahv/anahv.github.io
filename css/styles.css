@@ -6527,11 +6527,13 @@ img::-moz-selection {
 #main-heading {
     font-size: 4rem;
     text-align: left;
-    margin-top: 35%
+    margin-top: 28%;
+	margin-bottom: 15px;
 }
 
 #heading-bullets {
     text-align: left;
+font-size: 1.1rem;
 }
 
 #main-image {
@@ -6658,6 +6660,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content h2 {
     font-size: 3rem;
     line-height: 3rem;
+    margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
